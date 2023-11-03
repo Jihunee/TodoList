@@ -1,6 +1,7 @@
-TOdo Component
+# TOdo Component 코드
 
-const Todo = ({ item, clickDeleteHaneler, checkedHandler }) => {
+
+`const Todo = ({ item, clickDeleteHaneler, checkedHandler }) => {
   return (
     <div key={item.id} className="list">
       <h1>{item.title}</h1>
@@ -20,12 +21,13 @@ const Todo = ({ item, clickDeleteHaneler, checkedHandler }) => {
   );
 };
 
-export default Todo;
+export default Todo;`
 
 
-DoneTodo Component
+# DoneTodo Component 코드
 
-const DoneTodo = ({ done, deleteDoneTodoHandler, doneCancelHandler }) => {
+
+`const DoneTodo = ({ done, deleteDoneTodoHandler, doneCancelHandler }) => {
   return (
     <div key={done.id} className="list">
       <h1>{done.title}</h1>
@@ -45,4 +47,4 @@ const DoneTodo = ({ done, deleteDoneTodoHandler, doneCancelHandler }) => {
   );
 };
 
-export default DoneTodo;
+export default DoneTodo;`
